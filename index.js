@@ -5,7 +5,7 @@ const port = 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the legacy changes management tool!');
+  res.send('Welcome to the legacy changes management tool! Please report any issues.');
 });
 
 const server = app.listen(port, () => {
