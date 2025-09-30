@@ -5,11 +5,11 @@ const port = 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Bienvenue dans l\'outil de gestion des modifications héritées !');
+  res.send('Welcome to the legacy changes management tool!');
 });
 
 const server = app.listen(port, () => {
-  console.log(`Serveur en écoute sur http://localhost:${port}`);
+  console.log(`Server is running at http://localhost:${port}`);
 });
 
 module.exports = server;
