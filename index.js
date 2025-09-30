@@ -5,7 +5,7 @@ const port = 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Bienvenue dans l\'outil de gestion des modifications héritées!');
+  res.send('Bienvenue dans l\'outil de gestion des modifications héritées !');
 });
 
 const server = app.listen(port, () => {
